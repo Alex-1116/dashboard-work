@@ -12,7 +12,7 @@
 2.  xxxx
 3.  xxxx
 
-所使用到的第三方插件
+#### 所使用到的第三方插件
 
 1. elementUI        UI组件库   
 2. echart           5.3.2  图表类库
@@ -22,7 +22,7 @@
 6. resize-observer-polyfill  1.5.1 监听尺寸的变化 
 7. scss             样式库
   
-目录结构
+#### 目录结构
 ├── components          # 组件目录
 │   │── Charts          # 图表组件
 │   │── Header          # 顶部操作区 
@@ -39,7 +39,7 @@
 ├── README.md        # 阅读文档                     
 │── style.scss       # 公共样式表     
 
-注：
+#### 注：
 1. WorkArea 组件里的 defaultParams字段是所有组件参数的存储对象，通过监听里面字段的变化来传值给组件，所以一旦在组件里新增参数时也需要在defaultParams添加同样的参数。
 2. defaultParams 里的字段可根据后端接口定义需重新配置。
 3. 目前仅开发折线图、柱状图、饼图、仪表盘组件，Charts文件里通过 getChartData来请求接口获取相应的xAxis、series数据，  目前是模拟数据
