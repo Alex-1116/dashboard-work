@@ -23,20 +23,20 @@
 7. scss             样式库
   
 #### 目录结构
-#### ├── components          # 组件目录
-#### │   │── Charts          # 图表组件
-#### │   │── Header          # 顶部操作区 
-#### │   │── ResizeObserver  # 自适应宽高组件 
-#### │   │── SelectArea      # 图表展示区
-#### │   │── SelectGroup     # 图表筛选区
-#### │   │── WorkArea        # 图表筛选、搜索区
-#### │   │── WorkOper        # 图表操作区
-#### │   │   │── target       # 报表指标
-#### │   │   │── style        # 页面样式 
-#### │   │   │── other        # 其他   
-#### │   │── Wrapper          # 组件包裹区域，含标题        
-#### ├── index.vue        # 入口文件                   
-#### ├── README.md        # 阅读文档                     
+#### |── components          # 组件目录
+#### │── │── Charts          # 图表组件
+#### │── │── Header          # 顶部操作区 
+#### │── │── ResizeObserver  # 自适应宽高组件 
+#### │── │── SelectArea      # 图表展示区
+#### │── │── SelectGroup     # 图表筛选区
+#### │── │── WorkArea        # 图表筛选、搜索区
+#### │── │── WorkOper        # 图表操作区
+#### │── │── │── target       # 报表指标
+#### │── │── │── style        # 页面样式 
+#### │── │── │── other        # 其他   
+#### │── │── Wrapper          # 组件包裹区域，含标题        
+#### |── index.vue        # 入口文件                   
+#### |── README.md        # 阅读文档                     
 #### │── style.scss       # 公共样式表     
 #### 
 #### 注：
